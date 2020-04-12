@@ -21,7 +21,7 @@ import es.uned.master.java.covid.Excepciones.GenericException;
 import java.util.ArrayList;
 import java.util.Map;
 
-public class SetUpService {
+public class  SetUpService {
     /**
      * INICIO DE LA MAGIA
      * Proceso:
