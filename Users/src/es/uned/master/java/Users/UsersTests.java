@@ -29,14 +29,14 @@ import java.util.List;
 import java.util.Optional;
 
 class UsersTests {
-    UserServices serv;
-    SetUpService initDb;
+    static UserServices serv;
+    static SetUpService initDb;
     @org.junit.jupiter.api.BeforeAll
     /**
      *  BEFOREALL INSTANCIA LAS CLASES NECESARIAS PAR A LOS SÚPER TESTS, SetUpService y UserServices.
      *  Dónde SetUpService es la clase que inicia la database como el Señor de todos los coders manda.
      */
-    void setUp() {
+    static void setUp() {
         //El meollo
         serv = new UserServices();
         //El inicializador de la db
