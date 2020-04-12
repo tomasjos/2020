@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Covid">
+    <output-path>$PROJECT_DIR$/out/artifacts/Covid</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Covid" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="org.neo4j.driver" module-name="Covid" />
+          <element id="library" level="project" name="Maven: org.neo4j.driver:neo4j-java-driver:4.0.1" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Covid/web/Web" />
+    </root>
+  </artifact>
+</component>

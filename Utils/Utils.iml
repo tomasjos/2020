@@ -9,5 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Excepciones" />
     <orderEntry type="library" name="Maven: com.thoughtworks.paranamer:paranamer:2.8" level="project" />
+    <orderEntry type="library" name="javax.servlet.jsp.jstl" level="project" />
+    <orderEntry type="library" name="jasper" level="project" />
   </component>
 </module>

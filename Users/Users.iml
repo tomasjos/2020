@@ -45,5 +45,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="DbContext" />
+    <orderEntry type="library" name="javax.servlet.jsp.jstl" level="project" />
+    <orderEntry type="library" name="jasper" level="project" />
   </component>
 </module>
